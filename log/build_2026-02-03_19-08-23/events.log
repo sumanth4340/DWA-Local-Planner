@@ -1,0 +1,86 @@
+[0.000000] (-) TimerEvent: {}
+[0.002006] (dwa_planner) JobQueued: {'identifier': 'dwa_planner', 'dependencies': OrderedDict()}
+[0.002373] (dwa_planner) JobStarted: {'identifier': 'dwa_planner'}
+[0.087694] (-) TimerEvent: {}
+[0.188286] (-) TimerEvent: {}
+[0.289291] (-) TimerEvent: {}
+[0.391647] (-) TimerEvent: {}
+[0.493160] (-) TimerEvent: {}
+[0.594096] (-) TimerEvent: {}
+[0.694727] (-) TimerEvent: {}
+[0.795653] (-) TimerEvent: {}
+[0.896685] (-) TimerEvent: {}
+[0.997463] (-) TimerEvent: {}
+[1.098358] (-) TimerEvent: {}
+[1.199263] (-) TimerEvent: {}
+[1.300062] (-) TimerEvent: {}
+[1.401031] (-) TimerEvent: {}
+[1.502288] (-) TimerEvent: {}
+[1.603267] (-) TimerEvent: {}
+[1.704190] (-) TimerEvent: {}
+[1.805450] (-) TimerEvent: {}
+[1.906903] (-) TimerEvent: {}
+[2.008459] (-) TimerEvent: {}
+[2.109294] (-) TimerEvent: {}
+[2.210216] (-) TimerEvent: {}
+[2.311517] (-) TimerEvent: {}
+[2.412680] (-) TimerEvent: {}
+[2.513695] (-) TimerEvent: {}
+[2.615067] (-) TimerEvent: {}
+[2.717824] (-) TimerEvent: {}
+[2.818777] (-) TimerEvent: {}
+[2.920108] (-) TimerEvent: {}
+[3.021707] (-) TimerEvent: {}
+[3.122818] (-) TimerEvent: {}
+[3.223573] (-) TimerEvent: {}
+[3.324262] (-) TimerEvent: {}
+[3.425633] (-) TimerEvent: {}
+[3.526539] (-) TimerEvent: {}
+[3.627370] (-) TimerEvent: {}
+[3.728485] (-) TimerEvent: {}
+[3.830073] (-) TimerEvent: {}
+[3.931096] (-) TimerEvent: {}
+[4.032002] (-) TimerEvent: {}
+[4.053858] (dwa_planner) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/dwa_planner', 'build', '--build-base', '/root/ros2_ws/build/dwa_planner/build', 'install', '--record', '/root/ros2_ws/build/dwa_planner/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/root/ros2_ws/src/dwa_planner', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'root', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'WT_PROFILE_ID': '{61c54bbd-c2c6-5271-96e7-009a87ff44bf}', 'HOME': '/root', 'OLDPWD': '/root', 'ROS_PYTHON_VERSION': '3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/0/bus', 'WSL_DISTRO_NAME': 'Ubuntu', 'DEBUGINFOD_URLS': '', 'WAYLAND_DISPLAY': 'wayland-0', 'ROS_DISTRO': 'humble', 'LOGNAME': 'root', 'NAME': 'DESKTOP-E1P0SKE', 'WSL_INTEROP': '/run/WSL/1094_interop', 'PULSE_SERVER': '127.0.0.1', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm-256color', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/Common Files/Oracle/Java/javapath:/mnt/c/Program Files (x86)/Common Files/Oracle/Java/java8path:/mnt/c/Program Files (x86)/Common Files/Oracle/Java/javapath:/mnt/c/Program Files/NVIDIA/CUDNN/v9.6/bin:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.6/bin:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.6/libnvvp:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files/PuTTY/:/mnt/c/Program Files/NVIDIA Corporation/Nsight Compute 2024.3.0/:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/ProgramData/chocolatey/bin:/mnt/c/Program Files/Git/cmd:/mnt/c/Users/janum/bin:/mnt/c/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/:/mnt/c/Users/janum/Downloads/onnxruntime-win-x64-gpu-1.20.1/onnxruntime-win-x64-gpu-1.20.1/lib:/mnt/c/Users/janum/Downloads/onnxruntime-win-x64-gpu-1.20.1/onnxruntime-win-x64-gpu-1.20.1:/mnt/c/Users/janum/opencv/opencv/build/bin:/mnt/c/Users/janum/opencv_install/lib/site-packages/opencv-4.11.0-py3.12.egg:/mnt/c/Program Files/nodejs/:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR:/mnt/c/Program Files/MySQL/MySQL Shell 8.0/bin/:/mnt/c/Users/janum/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/janum/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Users/janum/AppData/Roaming/npm:/snap/bin:/root/ngc-cli', 'WT_SESSION': 'f7730bf7-c239-42e3-ae56-630474eeaa43', 'XDG_RUNTIME_DIR': '/run/user/0/', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'AMENT_PREFIX_PATH': '/opt/ros/humble', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'PWD': '/root/ros2_ws/build/dwa_planner', 'TURTLEBOT3_MODEL': 'burger', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/root/ros2_ws/build/dwa_planner/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/root/ros2_ws/install/dwa_planner/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'WSL2_GUI_APPS_ENABLED': '1', 'HOSTTYPE': 'x86_64', 'WSLENV': 'WT_SESSION:WT_PROFILE_ID:'}, 'shell': False}
+[4.132796] (-) TimerEvent: {}
+[4.233829] (-) TimerEvent: {}
+[4.335036] (-) TimerEvent: {}
+[4.436587] (-) TimerEvent: {}
+[4.539791] (-) TimerEvent: {}
+[4.641082] (-) TimerEvent: {}
+[4.744191] (-) TimerEvent: {}
+[4.845325] (-) TimerEvent: {}
+[4.946328] (-) TimerEvent: {}
+[5.047728] (-) TimerEvent: {}
+[5.149713] (-) TimerEvent: {}
+[5.250723] (-) TimerEvent: {}
+[5.351479] (-) TimerEvent: {}
+[5.452420] (-) TimerEvent: {}
+[5.553660] (-) TimerEvent: {}
+[5.655606] (-) TimerEvent: {}
+[5.731161] (dwa_planner) StdoutLine: {'line': b'running egg_info\n'}
+[5.734123] (dwa_planner) StdoutLine: {'line': b'writing ../../build/dwa_planner/dwa_planner.egg-info/PKG-INFO\n'}
+[5.736599] (dwa_planner) StdoutLine: {'line': b'writing dependency_links to ../../build/dwa_planner/dwa_planner.egg-info/dependency_links.txt\n'}
+[5.737592] (dwa_planner) StdoutLine: {'line': b'writing entry points to ../../build/dwa_planner/dwa_planner.egg-info/entry_points.txt\n'}
+[5.738909] (dwa_planner) StdoutLine: {'line': b'writing requirements to ../../build/dwa_planner/dwa_planner.egg-info/requires.txt\n'}
+[5.739262] (dwa_planner) StdoutLine: {'line': b'writing top-level names to ../../build/dwa_planner/dwa_planner.egg-info/top_level.txt\n'}
+[5.746429] (dwa_planner) StdoutLine: {'line': b"reading manifest file '../../build/dwa_planner/dwa_planner.egg-info/SOURCES.txt'\n"}
+[5.751047] (dwa_planner) StdoutLine: {'line': b"writing manifest file '../../build/dwa_planner/dwa_planner.egg-info/SOURCES.txt'\n"}
+[5.752192] (dwa_planner) StdoutLine: {'line': b'running build\n'}
+[5.752528] (dwa_planner) StdoutLine: {'line': b'running build_py\n'}
+[5.754901] (dwa_planner) StdoutLine: {'line': b'running install\n'}
+[5.755734] (-) TimerEvent: {}
+[5.756444] (dwa_planner) StdoutLine: {'line': b'running install_lib\n'}
+[5.763789] (dwa_planner) StdoutLine: {'line': b'running install_data\n'}
+[5.766291] (dwa_planner) StdoutLine: {'line': b'running install_egg_info\n'}
+[5.773103] (dwa_planner) StdoutLine: {'line': b"removing '/root/ros2_ws/install/dwa_planner/lib/python3.10/site-packages/dwa_planner-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[5.775621] (dwa_planner) StdoutLine: {'line': b'Copying ../../build/dwa_planner/dwa_planner.egg-info to /root/ros2_ws/install/dwa_planner/lib/python3.10/site-packages/dwa_planner-0.0.0-py3.10.egg-info\n'}
+[5.782368] (dwa_planner) StdoutLine: {'line': b'running install_scripts\n'}
+[5.855924] (-) TimerEvent: {}
+[5.866104] (dwa_planner) StdoutLine: {'line': b'Installing dwa_node script to /root/ros2_ws/install/dwa_planner/lib/dwa_planner\n'}
+[5.867997] (dwa_planner) StdoutLine: {'line': b"writing list of installed files to '/root/ros2_ws/build/dwa_planner/install.log'\n"}
+[5.956276] (-) TimerEvent: {}
+[6.021949] (dwa_planner) CommandEnded: {'returncode': 0}
+[6.059982] (-) TimerEvent: {}
+[6.095489] (dwa_planner) JobEnded: {'identifier': 'dwa_planner', 'rc': 0}
+[6.099804] (-) EventReactorShutdown: {}

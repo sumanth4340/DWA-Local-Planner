@@ -1,0 +1,21 @@
+[4.074s] Invoking command in '/root/ros2_ws/src/dwa_planner': PYTHONPATH=/root/ros2_ws/build/dwa_planner/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/root/ros2_ws/install/dwa_planner/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/dwa_planner build --build-base /root/ros2_ws/build/dwa_planner/build install --record /root/ros2_ws/build/dwa_planner/install.log --single-version-externally-managed install_data
+[5.729s] running egg_info
+[5.732s] writing ../../build/dwa_planner/dwa_planner.egg-info/PKG-INFO
+[5.734s] writing dependency_links to ../../build/dwa_planner/dwa_planner.egg-info/dependency_links.txt
+[5.736s] writing entry points to ../../build/dwa_planner/dwa_planner.egg-info/entry_points.txt
+[5.737s] writing requirements to ../../build/dwa_planner/dwa_planner.egg-info/requires.txt
+[5.737s] writing top-level names to ../../build/dwa_planner/dwa_planner.egg-info/top_level.txt
+[5.744s] reading manifest file '../../build/dwa_planner/dwa_planner.egg-info/SOURCES.txt'
+[5.749s] writing manifest file '../../build/dwa_planner/dwa_planner.egg-info/SOURCES.txt'
+[5.750s] running build
+[5.750s] running build_py
+[5.753s] running install
+[5.754s] running install_lib
+[5.762s] running install_data
+[5.764s] running install_egg_info
+[5.771s] removing '/root/ros2_ws/install/dwa_planner/lib/python3.10/site-packages/dwa_planner-0.0.0-py3.10.egg-info' (and everything under it)
+[5.773s] Copying ../../build/dwa_planner/dwa_planner.egg-info to /root/ros2_ws/install/dwa_planner/lib/python3.10/site-packages/dwa_planner-0.0.0-py3.10.egg-info
+[5.780s] running install_scripts
+[5.864s] Installing dwa_node script to /root/ros2_ws/install/dwa_planner/lib/dwa_planner
+[5.866s] writing list of installed files to '/root/ros2_ws/build/dwa_planner/install.log'
+[6.022s] Invoked command in '/root/ros2_ws/src/dwa_planner' returned '0': PYTHONPATH=/root/ros2_ws/build/dwa_planner/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/root/ros2_ws/install/dwa_planner/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/dwa_planner build --build-base /root/ros2_ws/build/dwa_planner/build install --record /root/ros2_ws/build/dwa_planner/install.log --single-version-externally-managed install_data
